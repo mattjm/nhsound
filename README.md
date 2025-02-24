@@ -1,4 +1,4 @@
-This document is intended to help people who are not audio engineers operate a small soundboard in a very specific venue.  The author is not an audio engineer.  This document should be considered a technically correct "soundboard bible"
+This document is intended to help people who are not audio engineers operate a small soundboard in a very specific venue.  The author is not an audio engineer.  This document should NOT be considered a technically correct "soundboard bible"
 
 # Terminology:
 
@@ -7,27 +7,7 @@ This document is intended to help people who are not audio engineers operate a s
 * __12 o'clock, 3 o'clock, etc__:  The position the knob would be in if the mark on the knob were a hand on a clock.  e.g. a knob at 3 o'clock would have the mark pointing directly to the right
 * __fader__: Another name for the LEVEL control knobs and the MAIN sliding volume control
 
-## Things you don't really need to know  
 
-(feel free to skip this section)
-
-The board is divided into more or less six channels that you can control.  The microphone channels are on the left side of the board, with all of the inputs and controls arranged vertically.  The remaining four channels are in a 2x2 grid in the middle of the board and correspond to the labeled inputs at the top of the board.  
-
-TODO PICTURE that is marked up
-
-The sound board has a built in DAC (Digital/Analog Converter), and the board receives audio from the PC over USB.  We advise full volume out of the computer to reduce the possibility of the PC altering the digital signal.
-
-### Connections
-
-* USB-A from computer to USB-B on the back of the soundboard
-* Left and right TRS connectors go from MAIN OUT to the big speakers in drop-in.  These are 6.35mm (1/4") diameter plugs with two plastic insulators on the body.  These are "balanced" cables and have XLR connectors on the other end where they connect to the speakers.  
-* The streamer box is connected to the board using a cable that adapts the 3.5mm (1/8") TRS (stereo) connector from the streamer to two 6.35mm (1/4") TS (mono, right and left) connectors on board. 
-* 1/8 TRS to 1/4 TR adapter for the streamer box
-* Microphone connections may be 6.35mm (1/4") TS or XLR
-* Power connection goes to the back of the soundboard
-* You can optionally connect a set of headphones to the PHONES plug at the top of the board
-
-TODO Labels and pictures of connectors.  
 
 # Setup Procedures
 
@@ -35,7 +15,7 @@ Most of these procedures build on one another.  For example, the karaoke procedu
 
 ## Playing music from the PC (short version)
 
-This assumes the board has not been meaningfully tinkered with since it was set up properly (see the long version of this procedure if this shorter one fails).  
+This assumes the board has not been meaningfully tinkered with since it was set up properly (see the verbose version of this procedure, _Playing music from the PC (long version)_, if this shorter one fails).  
 
 2. Move the __MAIN__ fader all the way to the bottom
 2. Check that the __LEVEL__ knob (white) for __channels 9/10__ (also labeled "PC") is set between 3 o'clock and 12 o'clock.  If the knob is in this range don't touch it.  If it's outside this range set it to 3 o'clock.  
@@ -47,7 +27,7 @@ This assumes the board has not been meaningfully tinkered with since it was set 
 
 ## Starting Position
 
-All other procedures assume the board began in the state described here:
+All other procedures except the short version of _Playing music from the PC_ assume the board is in the state described here:
 
 1. The two small black __GAIN__ knobs at the top left of the board are turned __fully CCW__
 1. All __LEVEL__ (white) knobs are turned __fully CCW__
@@ -59,7 +39,8 @@ All other procedures assume the board began in the state described here:
 8. __Unplug__ the __MAIN OUT__ connectors in the upper right corner of the board.  
 7. The number displayed under __PROGRAM__ is not important.  Ignore the black knob under the display as it is just used to change the number and doesn't have a specific position it can be set to.  
 
-TODO PICTURE
+![picture of soundboard showing starting position of knobs](./images/board-start.jpeg)
+
 
 
 
@@ -76,70 +57,102 @@ This procedure should not have to be done often.  Usually you can use the short 
 8. Slowly_ turn the __LEVEL__ knob (white) for __channels 9/10__ (also labeled "PC") __CW__ while watching the second set of green lights (labeled with a zero) above the MAIN fader.  The lights will vary as the music plays, and the goal is to have the zero lights mostly or steadily lit, and the yellow lights just flickering at the loudest parts of the song.  The red CLIP lights should never illuminate.  Usually the knob will be somewhere between 12 o'clock and 3 o'clock.  
 
 
-PICTURE
+Here is an example of the green "zero"LEDs lit up:
+![picture of soundboard signal meter showing green LEDs](./images/meter-green.jpeg)
 
-9.  _THIS IS VERY IMPORTANT_ Move the __MAIN__ fader __all the way down__ (towards the infinity symbol).  If you forget this step you may have a room of very angry people.  
+Here is an example of the yellow LEDs lit up:
+![picture of soundboard signal meter showing yellow LEDs](./images/meter-yellow.jpeg)
+
+
+
+9. _THIS IS VERY IMPORTANT_ Move the __MAIN__ fader __all the way down__ (towards the infinity symbol).  If you forget this step you will make very loud noises and maybe damage some equipment.  
 10. __DOUBLE CHECK YOU MOVED THE MAIN FADER ALL THE WAY DOWN__
 10. __Plug in__ the appropriate cables to the __MAIN OUT__ sockets in the upper right corner of the board.  They will be labeled MAIN OUT R and MAIN OUT L.  Plug the cables into the R and L sockets, respectively.  
 11.  _Slowly_ move the __MAIN__ fader up until the volume is to your liking.  
 
-# Playing Music from the Streamer Box
+## Playing Music from the Streamer Box
 
 This procedure assumes you are already successfully playing music from the PC at an appropriate volume.  
 
 1. Leave the __MAIN__ fader where it is
-1. Turn the __LEVEL__ knob (white) for __channels 9/10__ (also labeled "PC") fully CCW.  You may want to note the position for when you switch back to the PC.  
-1. Connect your phone to the streamer box, start the music, and set your phone volume to maximum.  You have to be on the staff wifi network to see the streamer box
+1. Note the position of the __LEVEL__ knob (white) for __channels 9/10__ (also labeled "PC").  Then turn the knob **fully CCW**.  
+1. Connect your phone to the streamer box, start the music, and set your phone volume to maximum.  You have to be on the **staff wifi network** to see the streamer box
 2. The __BOOST__ button for __channels 7/8__ should be __ON__ (down).  Press the button to toggle it and confirm the position.
 8. Slowly turn the __LEVEL__ knob (white) for __channels 7/8__ (also labeled "stream") __CW__ until the volume is to your liking.  
 
-To switch back to the PC, turn the LEVEL knob for the stream channel fully CCW.  Turn the LEVEL knob for ther PC back to where it was.  
+To switch back to the PC, turn the **LEVEL** knob for the stream channel **fully CCW**.  Turn the **LEVEL** knob for ther PC back to where it was.  
 
+![Picture of soundboard with LEVEL knob set for playing from the streamer box](./images/board-streamer.jpeg)
 
-# Karaoke with microphones 
+## Karaoke with microphones 
 
-This procedure calls for an assistant, but you can provide microphone input yourself.  
+This procedure calls for an assistant to speak into the microphone, but you can also provide microphone input yourself.  
 
 1.  Start by following the procedure for __Playing music from the PC__
 2.  Pause the music
-2. Confirm the __LEVEL__ knobs and the __GAIN__ knobs for the __MIC 1__ channel are fully CCW (the MIC 1 channel is the vertical row of knobs on the far left of the board)
-2.  Note the position of the __MAIN__ fader, then move it all the way to the bottom
+2. Confirm the __LEVEL__ knobs and the __GAIN__ knobs for the __MIC 1__ channel are **fully CCW** (the MIC 1 channel is the vertical row of knobs on the far left of the board)
+2.  Note the position of the __MAIN__ fader, then move it all the way down.
 3.  Plug the microphone into the channel labeled __MIC 1__ at the top.  Details on connecting the microphone will be covered elsewhere
 4.  Note there is a small red light labeled __CLIP__ next to the PAN knob, and a small black knob labeled __GAIN__ at the top of the board near where the microphone cable plugs in.  You will use these in the next step
 5. Have your assistant speak or sing into the microphone at a typical performance volume.  Slowly turn the __GAIN__ knob CW, while watching the __CLIP__ light.  When the __CLIP__ light starts to flash, turn the __GAIN__ knob __CCW__ about one sixteenth of a turn (22 degrees).  Don't worry about the exact amount you turn the knob...we're not building a spaceship here.     
 5.  Continue watching the __CLIP__ light to make sure it isn't flashing while your assistant sings or speaks.  Adjust the knob CW or CCW as needed
 5.  Set the __LEVEL__ knob (white) to 12 o'clock as a starting point
 5.  While your assistant speaks or sings, slowly move the __MAIN__ fader to the position noted in step 4.  *Quickly* move the __MAIN__ fader to the bottom if there is any feedback. Keep your hand on the fader for the next step.  
-6.  Start the music.  *Quickly* move the __MAIN__ fader to the bottom if there is any feedback.  Now you will use the __LEVEL__ knobs on the channels for __MIC 1__ and __9/10__ so the microphone and music volumes are reasonable relative to one another.  
+6.  Start the music.  *Quickly* move the __MAIN__ fader to the bottom if there is any feedback.  Now you will use the __LEVEL__ knobs on the channels for __MIC 1__ and __9/10__ to adjust the microphone and music volumes until they are reasonable relative to one another.  
 7. Once the relative volumes ("mix") are good you may find the overall volume is too loud or too quiet.  Use the __MAIN__ fader to adjust the volume without affecting the mix.  Watch the lights above the __MAIN__ slider--the red CLIP lights should never light up.  
-8. Note you may need to adjust the __LEVEL__ knobs up or down as songs or performers vary in volume.  
+8. Note you may need to adjust the __LEVEL__ knobs up or down as songs or performers vary in volume.  If you have a particularly loud performer, you may need to turn down the GAIN, but this will likely require readjusting the LEVEL and MAIN faders again.  
 
-## Adding a second microphone
+### Adding a second microphone
 
 1. Note the position of the __MAIN__ fader, then move it all the way to the bottom
 2. Follow steps 5 through 10 in the _Karaoke with microphones_ procedure for setting the microphone gain and levels.  
 3. Start the music.  Now you will use the LEVEL knobs on the __MIC 1__ and __MIC 2__ channels, and channel __9/10__ so the microphone and music volumes are reasonable relative to one another.
-4. Follow steps 7 through 8 in the _Karaoke with microphones_ procedure
+4. Follow steps 12 through 13 in the _Karaoke with microphones_ procedure
+
+## Adjusting the Speakers
+
+You will never need to make adjustments to the speakers under normal circumstances.  Everything can be adjusted at the soundboard.  
+
+This procedure is provided in case the speaker settings are tampered with.  The correct settings for the speakers are:
+
+* The knobs for **MIC1** and **MIC2** should be **fully CCW**
+* **LINE** knob should be **FULLY CW** 
+* **MASTER** knob should be at 10 o'clock
+* The equalizer sliders should all be in the middle.  There should be a slight "click" where the slider settles in the middle.  
+
+![picture of how speaker controls should be set](./images/speakers.jpeg)
+
+# Things you don't _really_ need to know (but might be useful)
+
+**(feel free to skip this section)**
+
+The board is divided into more or less six channels that you can control.  The microphone channels are on the left side of the board, with all of the inputs and controls arranged vertically.  The remaining four channels are in a 2x2 grid in the middle of the board and correspond to the labeled inputs at the top of the board.  
+
+![picture of board marked up to indicate the different controls and channels](./images/board-diagram.jpeg)
+
+The sound board has a built in DAC (Digital/Analog Converter), and the board receives audio from the PC over USB.  We advise full volume out of the computer to reduce the possibility of the PC altering the digital signal.
+
+## Connections
+
+**(feel free to skip this section...unless you are trying to fix a mess someone else has made)**
+
+* USB-A (rectangle) from computer to USB-B (square) on the back of the soundboard
+* Left and right TRS connectors go from MAIN OUT to the big speakers in drop-in.  These are 6.35mm (1/4") diameter plugs with two plastic insulators on the body.  These are "balanced" cables and have XLR connectors on the other end where they connect to the speakers.  
+* The streamer box is connected to the board on channels 5/6 using a cable that adapts the 3.5mm (1/8") TRS (stereo) connector from the streamer to two 6.35mm (1/4") TS (mono, right and left) connectors on board. The TS connectors have a single plastic insulator on the body.  
+* Microphone connections may be 6.35mm (1/4") TS or XLR
+* Power connection goes to the back of the soundboard
+* You can optionally connect a set of headphones to the PHONES plug at the top of the board
 
 
 
 
+----------
 
-Absolute vs relative volume:
-
-(this is not a technically correct discussion)
-
-The MAIN MIX slider controls the overall volume going to the speakers.  The LEVEL knobs on the microphones and channel 9/10 control relative volumes of music to voice.  Your goal as the sound board operator is to have the MAIN slider set at a level where the yellow lights only just barely light up at the loudest parts of the song, while keeping the microphone and music volumes at reasonable levels relative to one another.  
+TODO Labels and pictures of connectors.  
 
 
-Problem: Music volume is good, microphone is too loud.  
-Solution: Turn the LEVEL knob for the microphone counterclockwise until the singer volume is reasonable.  
 
-Problem:  Music and microphone are too loud or too quiet.  
-Solution:  Move MAIN MIX slider lower or higher, respectively.  
 
-Problem:  Music too quiet, microphone is good.  
-Solution:  Turn the LEVEL knob for the microphone counterclockwise a quarter turn or so.  Move the MAIN MIX slider until the music volume is reasonable, then adjust the LEVEL knob for the microphone until the volume is reasonable again. 
 
 
 
@@ -163,12 +176,6 @@ You will never need to make adjustments to the speakers under normal circumstanc
 
 
 https://homerecordinglab.com/how-to-set-proper-audio-recording-levels/
-
-
-
-Usually:  
-
-If no one has messed with the gain levels or computer volume since you last went through this procedure, there should be no need to go through the entire process, you can just adjust the overall volume with the main fader and the mix with the fader knobs on each channel.  
 
 
 Set levels on the speakers amps:
