@@ -25,6 +25,10 @@ This assumes the board has not been meaningfully tinkered with since it was set 
 3. Start the music on the PC
 4. _Slowly_ move the __MAIN__ fader up to adjust the volume 
 
+Here is a picture of what the knobs should look like for playing music from the PC:
+
+![picture of soundboard with knobs positioned for playing music from the PC](./images/board-pc.jpeg)
+
 ## Starting Position
 
 All other procedures except the short version of _Playing music from the PC_ assume the board is in the state described here:
@@ -39,6 +43,7 @@ All other procedures except the short version of _Playing music from the PC_ ass
 8. __Unplug__ the __MAIN OUT__ connectors in the upper right corner of the board.  
 7. The number displayed under __PROGRAM__ is not important.  Ignore the black knob under the display as it is just used to change the number and doesn't have a specific position it can be set to.  
 
+Here is a picture of what the knobs should look like in the starting position:
 ![picture of soundboard showing starting position of knobs](./images/board-start.jpeg)
 
 
@@ -49,7 +54,7 @@ All other procedures except the short version of _Playing music from the PC_ ass
 This procedure should not have to be done often.  Usually you can use the short version of this procedure.
 
 1. Make sure the board is in the __Starting Position__ (see other sections of this document)
-1. Select __USB Audio CODEC__ as the audio output device on the computer.  	TODO more detail here
+1. Select __USB Audio CODEC__ as the audio output device on the computer.  Details on this process are covered in another section.  
 5. Set the __system volume__ on the computer to __maximum__ or __100%__  
 6. Set the  __video or music app volume__ (e.g. YouTube or Spotify) to __maximum__ or __100%__, if the application offers volume control 
 7. __Start__ playing the music on the computer
@@ -65,7 +70,7 @@ Here is an example of the yellow LEDs lit up:
 
 
 
-9. _THIS IS VERY IMPORTANT_ Move the __MAIN__ fader __all the way down__ (towards the infinity symbol).  If you forget this step you will make very loud noises and maybe damage some equipment.  
+8. _THIS IS VERY IMPORTANT_ Move the __MAIN__ fader __all the way down__ (towards the infinity symbol).  If you forget this step you will make very loud noises and maybe damage some equipment.  
 10. __DOUBLE CHECK YOU MOVED THE MAIN FADER ALL THE WAY DOWN__
 10. __Plug in__ the appropriate cables to the __MAIN OUT__ sockets in the upper right corner of the board.  They will be labeled MAIN OUT R and MAIN OUT L.  Plug the cables into the R and L sockets, respectively.  
 11.  _Slowly_ move the __MAIN__ fader up until the volume is to your liking.  
@@ -80,9 +85,11 @@ This procedure assumes you are already successfully playing music from the PC at
 2. The __BOOST__ button for __channels 7/8__ should be __ON__ (down).  Press the button to toggle it and confirm the position.
 8. Slowly turn the __LEVEL__ knob (white) for __channels 7/8__ (also labeled "stream") __CW__ until the volume is to your liking.  
 
-To switch back to the PC, turn the **LEVEL** knob for the stream channel **fully CCW**.  Turn the **LEVEL** knob for ther PC back to where it was.  
+Here is an example of what the board would look like for playing music from the streamer box:
 
 ![Picture of soundboard with LEVEL knob set for playing from the streamer box](./images/board-streamer.jpeg)
+
+To switch back to the PC, turn the **LEVEL** knob for the stream channel **fully CCW**.  Turn the **LEVEL** knob for ther PC back to where it was.  
 
 ## Karaoke with microphones 
 
@@ -92,7 +99,7 @@ This procedure calls for an assistant to speak into the microphone, but you can 
 2.  Pause the music
 2. Confirm the __LEVEL__ knobs and the __GAIN__ knobs for the __MIC 1__ channel are **fully CCW** (the MIC 1 channel is the vertical row of knobs on the far left of the board)
 2.  Note the position of the __MAIN__ fader, then move it all the way down.
-3.  Plug the microphone into the channel labeled __MIC 1__ at the top.  Details on connecting the microphone will be covered elsewhere
+3.  Plug the microphone into the channel labeled __MIC 1__ at the top.  Details on connecting the microphone covered elsewhere.  
 4.  Note there is a small red light labeled __CLIP__ next to the PAN knob, and a small black knob labeled __GAIN__ at the top of the board near where the microphone cable plugs in.  You will use these in the next step
 5. Have your assistant speak or sing into the microphone at a typical performance volume.  Slowly turn the __GAIN__ knob CW, while watching the __CLIP__ light.  When the __CLIP__ light starts to flash, turn the __GAIN__ knob __CCW__ about one sixteenth of a turn (22 degrees).  Don't worry about the exact amount you turn the knob...we're not building a spaceship here.     
 5.  Continue watching the __CLIP__ light to make sure it isn't flashing while your assistant sings or speaks.  Adjust the knob CW or CCW as needed
@@ -109,6 +116,10 @@ This procedure calls for an assistant to speak into the microphone, but you can 
 3. Start the music.  Now you will use the LEVEL knobs on the __MIC 1__ and __MIC 2__ channels, and channel __9/10__ so the microphone and music volumes are reasonable relative to one another.
 4. Follow steps 12 through 13 in the _Karaoke with microphones_ procedure
 
+## Switching the Audio Output on the PC
+
+TODO
+
 ## Adjusting the Speakers
 
 You will never need to make adjustments to the speakers under normal circumstances.  Everything can be adjusted at the soundboard.  
@@ -122,11 +133,17 @@ This procedure is provided in case the speaker settings are tampered with.  The 
 
 ![picture of how speaker controls should be set](./images/speakers.jpeg)
 
+## Connecting Microphones
+
+TODO
+
 # Things you don't _really_ need to know (but might be useful)
 
 **(feel free to skip this section)**
 
 The board is divided into more or less six channels that you can control.  The microphone channels are on the left side of the board, with all of the inputs and controls arranged vertically.  The remaining four channels are in a 2x2 grid in the middle of the board and correspond to the labeled inputs at the top of the board.  
+
+Here is a marked up picture of the board illustrating the different channels and controls:
 
 ![picture of board marked up to indicate the different controls and channels](./images/board-diagram.jpeg)
 
@@ -151,26 +168,6 @@ The sound board has a built in DAC (Digital/Analog Converter), and the board rec
 TODO Labels and pictures of connectors.  
 
 
-
-
-
-
-
-
-
-
-speakers:
-
-You will never need to make adjustments to the speakers under normal circumstances.  Everything can be adjusted at the soundboard.  The correct settings for the speakers are:
-
-
-* The knobs for mic 1 and mic 2 should be all the way counterclockwise.  
-* line in/line 1 knob should be at 12 o'clock.
-* "master" knob should be at 1 o'clock
-* The equalizer sliders should all be in the middle.  There should be a slight "click" where the slider settles in the middle.  
-
-
------------------
 
 
 
