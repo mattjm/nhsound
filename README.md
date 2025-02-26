@@ -163,32 +163,4 @@ The sound board has a built in DAC (Digital/Analog Converter), and the board rec
 
 
 
-----------
 
-TODO Labels and pictures of connectors.  
-
-
-
-
-
-
-https://homerecordinglab.com/how-to-set-proper-audio-recording-levels/
-
-
-Set levels on the speakers amps:
-
-Find 30 minutes when no one is using the space. Put everything at unity on the x32 and turn the power amps (or powered speakers) to zero. Put on a song you like. Start turning the amps up until it's "a couple clicks" louder than you want it. Then turn master down to your target volume. 
-
-
-
-
-
-
------
-
-
-Need to make sure this procedure actually works
-Set the speaker amp volumes appropriately
-How to solve feedback problems
-NEED PICTURES
-Figure out correct speaker amp setting.  Try LINE at max and adjust just the master volume knob. Use line knob to avoid any clipping.    
